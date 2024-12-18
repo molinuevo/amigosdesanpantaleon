@@ -1,0 +1,162 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 73%/1.5em Tahoma;
+	background-color: #23282B;
+}
+
+#pagina {
+	clear: both;
+	margin: 0 auto;
+	width: 960px;
+	z-index: 1;
+}
+
+#barralateral {
+	float: left;
+	width: 104px;
+	margin-top: 86px;
+	z-index: 2;
+}
+
+#menu {
+	background: #23282B;
+	text-align: left;
+	z-index: 3;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 24px 0;
+}
+
+#menu ul li {
+	padding: 0 0 8px 0;
+}
+
+#menu ul a {
+	display: block;
+	padding: 4px 4px 0 0;
+	line-height: 1.5em;
+	color: #EA6901;
+	font: normal 1em Georgia, Arial;
+	text-align: right;
+	text-decoration: none;
+}
+
+#menu ul a:hover {
+	display: block;
+	padding: 4px 4px 0 0;
+	line-height: 1.5em;
+	color: #9178CA;
+	font: normal 1em Georgia, Arial;
+	text-align: left;
+	text-decoration: none;
+	border-right: 4px solid #9178CA;
+}
+
+#contenido {
+	float: right;
+	width: 848px;
+	height: 560px;
+	margin-top: 36px;
+	background-color: #FFFFFF;
+	z-index: 4;
+}
+
+#documento {
+	float: right;
+	width: 848px;
+	height: 472px;
+	background-color: #FFFFFF;
+	z-index: 5;
+}
+
+#documento a {
+	color: #FF6633;
+	font: normal 1.1em Georgia, Arial;
+	text-decoration: none;
+}
+
+#documento a:hover {
+	color: #9966FF;
+	font: normal 1.1em Georgia, Arial;
+	text-decoration: none;
+}
+
+#fondoIzquierda {
+	position: fixed;
+	padding: 88px 0 0 32px;
+	z-index: 6;
+}
+
+#fondoDerecha {
+	position: fixed;
+	padding: 88px 0 0 420px;
+	z-index: 6;
+}
+
+#pieCentrado {
+	float: right;
+	width: 848px;
+	height: 24px;
+	background-color: #23282B;
+	color: #F7B851;
+	text-align: center;
+	font: normal 0.9em Georgia, Arial;
+	letter-spacing: 0.1em;
+	margin-top: 12px;
+	z-index: 12;
+}
+
+#pieIzquierda {
+	float: left;
+	width: 366px;
+	height: 24px;
+	background-color: #23282B;
+	color: #F7B851;
+	text-align: left;
+	font: normal 0.9em Georgia, Arial;
+	letter-spacing: 0.1em;
+	margin: -12px 0 0 140px;
+	z-index: 12;
+}
+
+.parrafoCentrado {
+	text-align: center;
+}
+
+.parrafoJustificado {
+	text-align: justify;
+}
+
+.textoResaltado {
+	font: bold 1.2em Georgia, Arial;
+	color: #6600FF;
+}
+
+.margenContenedor-36 {
+	margin-top: -36px;
+}
+
+.margenContenedor12 {
+	margin-top: 12px;
+}
+
+.margenContenedor24 {
+	margin-top: 24px;
+}
+
+.margenContenedor48 {
+	margin-top: 48px;
+}
+
+.imagen {
+	border: 0;
+	vertical-align: middle;
+}

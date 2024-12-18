@@ -1,0 +1,44 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/dedicatoria.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+#contenedorImagenes {
+	width: 848px;
+	height: 200px;
+	z-index: 8;
+}
+
+#contenedorImagenes ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenes ul li a {
+	position: absolute;
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin: 12px 0 0 32px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+#contenedorImagenes ul li p {
+	float: right;
+	width: 470px;
+	text-align: justify;
+	z-index: 9;
+}

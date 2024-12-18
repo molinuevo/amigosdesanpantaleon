@@ -1,0 +1,34 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/horarios.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding-top: 24px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+.parrafoCentradoResaltado {
+	text-align: center;
+	font: bold 1.2em Georgia, Arial;
+	color: #6600FF;
+}
+
+.parrafoJustificadoMargen {
+	text-align: justify;
+	font: normal 1.1em Georgia, Arial;
+	padding: 0 32px 0 32px;
+}
+
+.parrafoJustificadoEstrecho {
+	text-align: justify;
+	font: normal 1.1em Georgia, Arial;
+	padding-right: 128px;
+	padding-left: 128px;
+}

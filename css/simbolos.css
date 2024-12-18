@@ -1,0 +1,57 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/simbolos.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+#contenedorImagenes {
+	width: 848px;
+	height: 200px;
+	z-index: 8;
+}
+
+#contenedorImagenes ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenes ul li p {
+	float: left;
+	width: 470px;
+	margin-top: 32px;
+	text-align: justify;
+	z-index: 9;
+}
+
+#contenedorImagenes ul li img {
+	position: absolute;
+	float: left;
+	margin-top: 12px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+.imagenSuperior {
+	width: 270px;
+	height: 180px;
+	border: 0;
+	vertical-align: middle;
+}
+
+.imagenInferior {
+	width: 160px;
+	height: 200px;
+	border: 0;
+	vertical-align: middle;
+}

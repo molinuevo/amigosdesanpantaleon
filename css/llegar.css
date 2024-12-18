@@ -1,0 +1,81 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/llegar.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+#imagen {
+	position: fixed;
+	width: 480px;
+	height: 380px;
+	margin: 16px 0 0 180px;
+	border: 4px solid #23282B;
+	z-index: 8;
+}
+
+#barraPestanyas {
+	float: right;
+	width: 848px;
+	height: 24px;
+	font: normal 1em Georgia, Arial;
+	color: #23282B;
+	text-align: center;
+	z-index: 9;
+}
+
+#barraPestanyas a {
+	color: #6600FF;
+	font: normal .9em Georgia, Arial;
+	text-decoration: none;
+}
+
+#barraPestanyas a:hover {
+	color: #23282B;
+	font: normal .9em Georgia, Arial;
+	text-decoration: none;
+}
+
+#pestanyaBurgos {
+	width: 140px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 10;
+}
+
+#pestanyaBilbao {
+	width: 140px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 10;
+}
+
+#pestanyaVitoria {
+	width: 140px;
+	height: 24px;
+	float: right;
+	margin-right: 8px;
+	z-index: 10;
+}
+
+.pestanyaActivada {
+	padding-top: 0;
+	background: url(../img/componentes/pestanya_activada_140x24.png) no-repeat;
+}
+
+.pestanyaDesactivada {
+	padding-top: 3px;
+	background: url(../img/componentes/pestanya_desactivada_140x24.png) no-repeat;
+}

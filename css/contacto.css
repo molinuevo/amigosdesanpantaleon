@@ -1,0 +1,35 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/contacto.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+#pie {
+	float: right;
+	width: 848px;
+	height: 24px;
+	background-color: #23282B;
+	color: #F7B851;
+	text-align: center;
+	font: normal 0.9em Georgia, Arial;
+	letter-spacing: 0.1em;
+	margin-top: 12px;
+	z-index: 8;
+}
+
+.parrafoCentradoResaltado {
+	text-align: center;
+	font: bold 1.2em Georgia, Arial;
+	color: #6600FF;
+}

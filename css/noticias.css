@@ -1,0 +1,40 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/noticias.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}
+
+#titular {
+	position: relative;
+	width: 764px;
+	margin: 36px 0 0 32px;
+	padding: 6px 0 6px 12px;
+	text-align: left;
+	font: bold 1em Georgia, Arial;
+	background-color: #23282B;
+	color: #F7B851;	
+	letter-spacing: 0.1em;
+	line-height: 1.6em;
+	z-index: 7;
+}
+
+#parrafo {
+	position: relative;
+	padding: 12px 32px 0 32px;
+	text-align: justify;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	z-index: 7;
+}

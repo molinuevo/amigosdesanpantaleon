@@ -1,0 +1,238 @@
+#cabecera {
+	float: right;
+	width: 848px;
+	height: 52px;
+	margin-top: 8px;
+	background: #FFFFFF url(../img/cabeceras/historia.jpg) no-repeat;
+	z-index: 5;
+}
+
+#documento p {
+	padding: 24px 32px 0 32px;
+	font: normal 1.1em Georgia, Arial;
+	letter-spacing: 0.1em;
+	line-height: 1.9em;
+	z-index: 7;
+}
+
+#contenedorImagenesIzquierda {
+	width: 848px;
+	height: 200px;
+	z-index: 8;
+}
+
+#contenedorImagenesIzquierda ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenesIzquierda ul li a {
+	position: absolute;
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin: 0 0 0 32px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+#contenedorImagenesIzquierda ul li p {
+	float: right;
+	width: 470px;
+	text-align: justify;
+	z-index: 9;
+}
+
+#contenedorImagenesVerticalesIzquierda {
+	width: 848px;
+	height: 200px;
+	z-index: 8;
+}
+
+#contenedorImagenesVerticalesIzquierda ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenesVerticalesIzquierda ul li a {
+	position: absolute;
+	float: left;
+	width: 180px;
+	height: 270px;
+	margin: 0 0 0 32px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+#contenedorImagenesVerticalesIzquierda ul li p {
+	float: right;
+	width: 570px;
+	text-align: justify;
+	z-index: 9;
+}
+
+#contenedorImagenesDerecha {
+	width: 848px;
+	height: 200px;
+	z-index: 8;
+}
+
+#contenedorImagenesDerecha ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenesDerecha ul li p {
+	float: left;
+	width: 470px;
+	text-align: justify;
+	z-index: 9;
+}
+
+#contenedorImagenesDerecha ul li a {
+	position: absolute;
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-top: 12px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+#contenedorImagenesVerticalesDerecha {
+	width: 848px;
+	height: 300px;
+	z-index: 8;
+}
+
+#contenedorImagenesVerticalesDerecha ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#contenedorImagenesVerticalesDerecha ul li p {
+	float: left;
+	width: 570px;
+	text-align: justify;
+	z-index: 9;
+}
+
+#contenedorImagenesVerticalesDerecha ul li a {
+	position: absolute;
+	float: left;
+	width: 180px;
+	height: 270px;
+	margin-top: 12px;
+	border: 4px solid #23282B;
+	z-index: 9;
+}
+
+#barraPestanyas {
+	float: right;
+	width: 848px;
+	height: 24px;
+	font: normal 1em Georgia, Arial;
+	color: #23282B;
+	text-align: center;
+	z-index: 10;
+}
+
+#barraPestanyas a {
+	color: #6600FF;
+	font: normal .9em Georgia, Arial;
+	text-decoration: none;
+}
+
+#barraPestanyas a:hover {
+	color: #23282B;
+	font: normal .9em Georgia, Arial;
+	text-decoration: none;
+}
+
+#pestanyaPagina1 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina2 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina3 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina4 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina5 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina6 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina7 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina8 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 4px;
+	z-index: 11;
+}
+
+#pestanyaPagina9 {
+	width: 40px;
+	height: 24px;
+	float: right;
+	margin-right: 8px;
+	z-index: 11;
+}
+
+.pestanyaActivada {
+	padding-top: 0;
+	background: url(../img/componentes/pestanya_activada_40x24.png) no-repeat;
+}
+
+.pestanyaDesactivada {
+	padding-top: 3px;
+	background: url(../img/componentes/pestanya_desactivada_40x24.png) no-repeat;
+}
+
+.imagenBorde {
+	margin-top: 12px;
+	border: 4px solid #23282B;
+	vertical-align: middle;
+}
